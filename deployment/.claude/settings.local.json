@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(kubectl get svc:*)",
+      "Bash(kubectl port-forward:*)",
+      "Bash(apt update:*)",
+      "Bash(apt install:*)"
+    ]
+  }
+}
